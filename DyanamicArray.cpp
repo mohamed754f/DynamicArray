@@ -152,7 +152,7 @@ public:
 
 int main()
 {
-	DynamicArray arr(20);
+	DynamicArray arr(5);
 
 	for (int i = 0; i < arr.getcapacity(); i++)
 	{
@@ -164,7 +164,7 @@ int main()
 		cout << arr.getElemnent(i) << " ";
 	}
 	
-	cout << "\nResize Array\n";
+	/*cout << "\nResize Array\n";
 	arr.resizeArray(10);
 	for (int i = 0; i < arr.getsize(); i++)
 	{
@@ -198,19 +198,19 @@ int main()
 	for (int i = 0; i < arr.getsize(); i++)
 	{
 		cout << arr.getElemnent(i) << " ";
-	}
+	}*/
 	
 	cout << "\n Insert Index\n";
-	arr.insertIndex(5, 678);
+	arr.insertIndex(2, 678);
 	for (int i = 0; i < arr.getsize(); i++)
 	{
 		cout << arr.getElemnent(i) << " ";
 	}
 	
-	cout << "\nRemove Index\n";
+	/*cout << "\nRemove Index\n";
 	arr.RemoveIndex(5);
 	for (int i = 0; i < arr.getsize(); i++)
 	{
 		cout << arr.getElemnent(i) << " ";
-	}
+	}*/
 }
